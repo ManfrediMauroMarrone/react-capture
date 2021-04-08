@@ -1,8 +1,13 @@
-
+import React from "react";
+import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
-    <h1>film</h1>
+    
+    <div className="App">
+      <AboutUs/>
+
+    </div>
   );
 }
 
